@@ -1,0 +1,17 @@
+#FormContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+#Form {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 400px;
+    background-color: white;
+    color: black;
+}
