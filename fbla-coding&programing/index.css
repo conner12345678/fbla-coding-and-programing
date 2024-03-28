@@ -6,7 +6,6 @@ body {
 #navbar {
     overflow: hidden;
     background-color: #264D80;
-    border-radius: 15px;
 }
 
 #navbar a {
@@ -33,5 +32,4 @@ body {
     background-color: #4F77AA;
     color: white;
     text-align: center;
-    border-radius: 25px;
 }
