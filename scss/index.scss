@@ -1,64 +1,61 @@
+$color_1: black;
+$color_2: #f2f2f2;
+$color_3: white;
+$background-color_1: #ECF0F1;
+$background-color_2: #2C3E50;
+$background-color_3: #1f2b37;
+$background-color_4: #34495E;
+
 body {
-    background-color: #ECF0F1;
-    color: black;
+	background-color: $background-color_1;
+	color: $color_1;
 }
-
 .body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
 #navbar {
-    overflow: hidden;
-    background-color: #2C3E50;
+	overflow: hidden;
+	background-color: $background-color_2;
+	a {
+		float: left;
+		color: $color_2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		&:hover {
+			background-color: $background-color_3;
+			color: $color_3;
+			text-decoration: underline;
+		}
+	}
 }
-
-#navbar a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-#navbar a:hover {
-    background-color: #1f2b37;
-    color: white;
-    text-decoration: underline;
-}
-
-
 #footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #34495E;
-    color: white;
-    text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: $background-color_4;
+	color: $color_3;
+	text-align: center;
 }
-
 .button {
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.button {
-    background-color: #ECF0F1; 
-    color: black; 
-    border: 2px solid #2C3E50;
-}
-
-.button:hover {
-    background-color: #2C3E50;
-    color: white;
+	border: none;
+	color: $color_3;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: $background-color_1;
+	color: $color_1;
+	border: 2px solid #2C3E50;
+	&:hover {
+		background-color: $background-color_2;
+		color: $color_3;
+	}
 }
