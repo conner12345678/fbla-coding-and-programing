@@ -9,11 +9,14 @@ body {
   align-items: center;
 }
 
-#navbar {
+.sticky {
+  position: sticky;
+}
+.sticky #navbar {
   overflow: hidden;
   background-color: #2C3E50;
 }
-#navbar a {
+.sticky #navbar a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -21,14 +24,32 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
-#navbar a:hover {
+.sticky #navbar a:hover {
   background-color: #1f2b37;
   color: white;
   text-decoration: underline;
 }
 
+ol {
+  text-align: center;
+}
+ol div {
+  background-color: #1f2b37;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 10px;
+}
+ol h1 {
+  color: white;
+}
+ol ol p {
+  color: white;
+}
+
 #footer {
-  position: fixed;
+  position: sticky;
+  padding: 2px;
+  margin: 4px;
   left: 0;
   bottom: 0;
   width: 100%;
