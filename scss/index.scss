@@ -10,13 +10,11 @@ body {
 	background-color: $background-color_1;
 	color: $color_1;
 }
-
 .body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-
 #navbar {
 	overflow: hidden;
 	background-color: $background-color_2;
@@ -34,7 +32,6 @@ body {
 		}
 	}
 }
-
 #footer {
 	position: fixed;
 	left: 0;
@@ -44,7 +41,6 @@ body {
 	color: $color_3;
 	text-align: center;
 }
-
 .button {
 	border: none;
 	color: $color_3;
