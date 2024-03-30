@@ -1,0 +1,18 @@
+#FormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  translate: 0px 75px;
+}
+
+form {
+  width: 30%;
+  height: 225px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}/*# sourceMappingURL=form.css.map */
