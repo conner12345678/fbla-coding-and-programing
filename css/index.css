@@ -43,8 +43,7 @@ ol ol p {
   color: white;
 }
 
-#footer {
-  position: sticky;
+footer {
   padding: 2px;
   margin: 4px;
   left: 0;
