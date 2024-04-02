@@ -15,7 +15,7 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-#navbar {
+nav {
 	overflow: hidden;
 	background-color: $background-color_2;
 	a {
@@ -50,6 +50,7 @@ ol{
     }
 }
 footer {
+	position: fixed;
 	padding: 2px;
 	margin: 4px;
 	left: 0;
