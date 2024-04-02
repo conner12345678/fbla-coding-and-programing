@@ -1,3 +1,5 @@
+let user_storage = ""
+
 const submit = () => {
     const container = document.createElement("div")
     const header = document.createElement("h1")
@@ -7,5 +9,4 @@ const submit = () => {
     const desc = document.createElement('p')
     desc.innerHTML = document.getElementById('cmpyDescription').value
     container.innerHTML = header + type + desc
-    document.getElementById("theList").appendChild(container)
 }
