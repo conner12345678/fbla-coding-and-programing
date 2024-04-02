@@ -3,10 +3,24 @@ body {
   color: black;
 }
 
-.body {
+#body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#body div {
+  display: flex;
+  flex-direction: column;
+}
+#body div hr {
+  border: 2px dotted black;
+  width: 100%;
+}
+#body div button {
+  position: relative;
+  width: 50%;
+  left: 25%;
+  right: 25%;
 }
 
 nav {

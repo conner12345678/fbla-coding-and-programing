@@ -10,10 +10,24 @@ body {
 	background-color: $background-color_1;
 	color: $color_1;
 }
-.body {
+#body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	div {
+		display: flex;
+		flex-direction: column;
+		hr {
+			border: 2px dotted black;
+			width: 100%;
+		}
+		button {
+			position: relative;
+			width: 50%;
+			left: 25%;
+			right: 25%;
+		}
+	}
 }
 nav {
 	overflow: hidden;
