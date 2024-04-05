@@ -1,31 +1,44 @@
 $color_1: black;
 $color_2: #f2f2f2;
 $color_3: white;
-$background-color_1: #ECF0F1;
+// $background-color_1: #ECF0F1;
 $background-color_2: #2C3E50;
 $background-color_3: #1f2b37;
 $background-color_4: #34495E;
 
-body {
-	background-color: $background-color_1;
-	color: $color_1;
+@font-face {
+	font-family: 'mainFont';
+	src: url(../tenada/Tenada.ttf);
 }
-#body {
+
+body {
+	background-image: url(../large-triangles.svg);
+	color: $color_1;
+	font-family: mainFont;
+}
+#content {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-top: 10%;
+	margin-bottom: 10%;
 	div {
 		display: flex;
 		flex-direction: column;
+		font-size: x-large;
+		text-align: center;
 		hr {
-			border: 2px dotted black;
+			border: 2px solid black;
 			width: 100%;
 		}
 		button {
+			font-size: larger;
+			font-family: mainFont;
 			position: relative;
 			width: 50%;
 			left: 25%;
 			right: 25%;
+			margin-top: 15px;
 		}
 	}
 }
@@ -38,7 +51,7 @@ nav {
 		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none;
-		font-size: 17px;
+		font-size: larger;
 		&:hover {
 			background-color: $background-color_3;
 			color: $color_3;
@@ -73,6 +86,7 @@ footer {
 	background-color: $background-color_4;
 	color: $color_3;
 	text-align: center;
+	font-size: larger;
 }
 .button {
 	border: none;
@@ -84,7 +98,7 @@ footer {
 	margin: 4px 2px;
 	transition-duration: 0.4s;
 	cursor: pointer;
-	background-color: $background-color_1;
+	background-color: #ECF0F1;
 	color: $color_1;
 	border: 2px solid #2C3E50;
 	&:hover {
