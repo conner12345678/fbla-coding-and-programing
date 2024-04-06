@@ -5,16 +5,20 @@ $color_3: white;
 // $background-color_2: #2C3E50;
 $background-color_3: #1f2b37;
 
+// Created a font
 @font-face {
 	font-family: 'mainFont';
 	src: url(../tenada/Tenada.ttf);
 }
 
+// Styles for the body 
 body {
 	background-image: url(../large-triangles.svg);
 	color: $color_1;
 	font-family: mainFont;
 }
+
+
 #content {
 	display: flex;
 	justify-content: center;
@@ -43,7 +47,7 @@ body {
 }
 nav {
 	overflow: hidden;
-	background-image: url(../wavey-fingerprint.svg);
+	background-image: url(../large-triangles2.svg);
 	a {
 		float: left;
 		color: $color_2;
@@ -79,7 +83,7 @@ footer {
 	padding: 2px;
 	width: 100%;
 	bottom: 0;
-	background-image: url(../wavey-fingerprint.svg);
+	background-image: url(../large-triangles2.svg);
 	color: $color_3;
 	text-align: center;
 	font-size: larger;
@@ -96,9 +100,16 @@ footer {
 	cursor: pointer;
 	background-color: #ECF0F1;
 	color: $color_1;
-	border: 2px solid #2C3E50;
+	border: 2px solid black;
 	&:hover {
-		background-image: url(../wavey-fingerprint.svg);
+		background-image: url(../zig-zag.svg);
 		color: $color_3;
+	}
+}
+
+#body {
+	div {
+		background-image: url(../zig-zag.svg);
+		// background-size: cover;
 	}
 }
