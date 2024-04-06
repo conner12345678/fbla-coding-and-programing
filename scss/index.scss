@@ -2,9 +2,8 @@ $color_1: black;
 $color_2: #f2f2f2;
 $color_3: white;
 // $background-color_1: #ECF0F1;
-$background-color_2: #2C3E50;
+// $background-color_2: #2C3E50;
 $background-color_3: #1f2b37;
-$background-color_4: #34495E;
 
 @font-face {
 	font-family: 'mainFont';
@@ -21,7 +20,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin-top: 10%;
-	margin-bottom: 10%;
+	margin-bottom: 15%;
 	div {
 		display: flex;
 		flex-direction: column;
@@ -44,7 +43,7 @@ body {
 }
 nav {
 	overflow: hidden;
-	background-color: $background-color_2;
+	background-image: url(../wavey-fingerprint.svg);
 	a {
 		float: left;
 		color: $color_2;
@@ -53,8 +52,8 @@ nav {
 		text-decoration: none;
 		font-size: larger;
 		&:hover {
-			background-color: $background-color_3;
-			color: $color_3;
+			background-color: #ECF0F1;
+			color: black;
 			text-decoration: underline;
 		}
 	}
@@ -77,13 +76,10 @@ ol{
     }
 }
 footer {
-	position: fixed;
 	padding: 2px;
-	margin: 4px;
-	left: 0;
-	bottom: 0;
 	width: 100%;
-	background-color: $background-color_4;
+	bottom: 0;
+	background-image: url(../wavey-fingerprint.svg);
 	color: $color_3;
 	text-align: center;
 	font-size: larger;
@@ -102,7 +98,7 @@ footer {
 	color: $color_1;
 	border: 2px solid #2C3E50;
 	&:hover {
-		background-color: $background-color_2;
+		background-image: url(../wavey-fingerprint.svg);
 		color: $color_3;
 	}
 }
