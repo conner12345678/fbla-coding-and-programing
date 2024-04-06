@@ -37,7 +37,7 @@ body {
 
 nav {
   overflow: hidden;
-  background-image: url(../wavey-fingerprint.svg);
+  background-image: url(../large-triangles2.svg);
 }
 nav a {
   float: left;
@@ -73,7 +73,7 @@ footer {
   padding: 2px;
   width: 100%;
   bottom: 0;
-  background-image: url(../wavey-fingerprint.svg);
+  background-image: url(../large-triangles2.svg);
   color: white;
   text-align: center;
   font-size: larger;
@@ -91,9 +91,13 @@ footer {
   cursor: pointer;
   background-color: #ECF0F1;
   color: black;
-  border: 2px solid #2C3E50;
+  border: 2px solid black;
 }
 .button:hover {
-  background-image: url(../wavey-fingerprint.svg);
+  background-image: url(../zig-zag.svg);
   color: white;
+}
+
+#body div {
+  background-image: url(../zig-zag.svg);
 }/*# sourceMappingURL=index.css.map */
