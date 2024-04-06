@@ -13,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 #content div {
   display: flex;
@@ -37,7 +37,7 @@ body {
 
 nav {
   overflow: hidden;
-  background-color: #2C3E50;
+  background-image: url(../wavey-fingerprint.svg);
 }
 nav a {
   float: left;
@@ -48,8 +48,8 @@ nav a {
   font-size: larger;
 }
 nav a:hover {
-  background-color: #1f2b37;
-  color: white;
+  background-color: #ECF0F1;
+  color: black;
   text-decoration: underline;
 }
 
@@ -70,13 +70,10 @@ ol ol p {
 }
 
 footer {
-  position: fixed;
   padding: 2px;
-  margin: 4px;
-  left: 0;
-  bottom: 0;
   width: 100%;
-  background-color: #34495E;
+  bottom: 0;
+  background-image: url(../wavey-fingerprint.svg);
   color: white;
   text-align: center;
   font-size: larger;
@@ -97,6 +94,6 @@ footer {
   border: 2px solid #2C3E50;
 }
 .button:hover {
-  background-color: #2C3E50;
+  background-image: url(../wavey-fingerprint.svg);
   color: white;
 }/*# sourceMappingURL=index.css.map */
