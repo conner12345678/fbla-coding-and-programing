@@ -1,5 +1,6 @@
 let user_storage = ""
 let False = true
+var search = "?cmpyName=r&cmpyType=r&cmpyDescription=r"
 const submit = () => {
     False = false
     const container = document.createElement('div')
@@ -19,4 +20,9 @@ if(!False){
         document.getElementById('theList').body.appendChild(test)
         False = true
     }, 1000);
+}
+function loadData(){
+    let queryString = window?.location.search
+    var finale =JSON.parse('{"' + queryString.replace(/&/g, '","').replace(/=/g,'":"') + '"}', function(key, value) { return key===""?value:decodeURIComponent(value) })
+    console.log(finale)
 }
