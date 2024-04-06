@@ -1,12 +1,22 @@
 let user_storage = ""
-
+let False = true
 const submit = () => {
-    const container = document.createElement("div")
-    const header = document.createElement("h1")
-    header.innerHTML = document.getElementById("cmpyName").value
-    const type = document.createElement('h5')
-    type.innerHTML = document.createElement("cmpyType").value
-    const desc = document.createElement('p')
-    desc.innerHTML = document.getElementById('cmpyDescription').value
-    container.innerHTML = header + type + desc
+    False = false
+    const container = document.createElement('div')
+    container.innerHTML = `<h1 class='title'></h1>
+    <h4 class='type'></h4>
+    <p class='desc'></p>`
+    document.getElementById('title').innerHTML = document.getElementById('cmpyName').value
+    document.getElementById('type').innerHTML = document.getElementById('cmpyType').value
+    document.getElementById('desc').innerHTML = document.getElementById('cmpyDescription').value
+    document.getElementById('myForm').submit();
+}
+if(!False){
+    setTimeout(() => {
+        let test = `<h1 class='title'>hi</h1>
+        <h4 class='type'>hih</h4>
+        <p class='desc'>hi</p>`
+        document.getElementById('theList').body.appendChild(test)
+        False = true
+    }, 1000);
 }
