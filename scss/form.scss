@@ -7,7 +7,6 @@ $background-color_1: white;
 	align-items: center;
 	margin-top: 10%;
 	margin-bottom: 15%;
-	translate: 0px 75px;
 }
 form {
 	width: fit-content;
@@ -18,4 +17,7 @@ form {
 	border-radius: 5px;
 	background-color: $background-color_1;
 	color: $color_1;
+	#moreInfo {
+		margin-left: 5px;
+	}
 }

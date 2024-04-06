@@ -108,8 +108,28 @@ footer {
 }
 
 #body {
+	margin-top: 10%;
+	margin-bottom: 15%;
 	div {
 		background-image: url(../zig-zag.svg);
-		// background-size: cover;
+		border-radius: 20px;
 	}
+
+	.content-container {
+		display: flex; 
+		align-items: center; 
+		margin-bottom: 20px; 
+		color: $color_3;
+		
+		.text {
+			flex: 1; 
+			padding-right: 20px;
+			text-align: center;
+		}
+	
+		.image {
+			flex-shrink: 0;
+		}
+	}
+	
 }

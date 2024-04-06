@@ -4,7 +4,6 @@
   align-items: center;
   margin-top: 10%;
   margin-bottom: 15%;
-  translate: 0px 75px;
 }
 
 form {
@@ -16,4 +15,7 @@ form {
   border-radius: 5px;
   background-color: white;
   color: black;
+}
+form #moreInfo {
+  margin-left: 5px;
 }/*# sourceMappingURL=form.css.map */

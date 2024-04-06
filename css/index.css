@@ -98,6 +98,25 @@ footer {
   color: white;
 }
 
+#body {
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
 #body div {
   background-image: url(../zig-zag.svg);
+  border-radius: 20px;
+}
+#body .content-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: white;
+}
+#body .content-container .text {
+  flex: 1;
+  padding-right: 20px;
+  text-align: center;
+}
+#body .content-container .image {
+  flex-shrink: 0;
 }/*# sourceMappingURL=index.css.map */
